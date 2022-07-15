@@ -102,6 +102,8 @@
     position: absolute;
     font-size: 15px;
     color: #03b2e1;
+    left: calc(100% - 4em);
+    top: calc(50% - .5em);
     transform: rotate(-90deg);
 }
 
