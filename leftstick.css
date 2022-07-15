@@ -39,6 +39,7 @@
 }
 
 /* - END COMMON STUFF - */
+
 .custom .sticks{
     width: 135px;
     height: 135px;
@@ -48,57 +49,108 @@
     border: 2px solid #03b2e1;
     border-radius: 15px;
     background-image: linear-gradient(0deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent), linear-gradient(90deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent);
-    top: calc(195px);
-    right: -100%;
-    transform: translateX(-100%);
+    top: calc(42px);
     background-size: calc(100% - 15px) 100%, 100% calc(100% - 15px);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 2px;
-
-    /*We keep this stuff above to make sure the other stick
-    is in the right location while we hide background.*/
-    background: none;
-    border-color: transparent;
+    padding: 2px
 }
 
-/* This part makes up the background of the Yaw part */
+
 .custom .triggers{
-    width: 129px;
-    height: 20px;
+    width: 20px;
+    height: 135px;
     display: inline-block;
     background: black;
-    position: absolute;
+    position: relative;
     border: 2px solid #03b2e1;
     border-radius: 20px;
-    background-image: linear-gradient(90deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent);
-    background-size: 100% calc(100% - 10px);
+    background-image: linear-gradient(0deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent);
+    background-size: calc(100% - 10px) 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 5px;
-    right: 0;
-    top: 125px
+    padding: 5px
 }
 
-/* Here we position the title for the Yaw axis */
 .custom .triggers:after{
-    content: "YAW";
+    content: "THROTTLE";
     display: inline-block;
     position: absolute;
     font-size: 14px;
     color: #03b2e1;
-    top: -1.5em;
-    right: 50%;
+    top: 50%;
+    right: calc(-200%);
     transform-origin: center;
-    transform: translateX(50%);
+    transform: translateY(-50%) rotate(-90deg);
 }
 
-/* This is to hide the stick we're not using */
-.custom .stick.left{
-    display: none;
-}
-/* This is to position the Yaw pointer */
-.custom .stick.right{
-    top: calc(-55px);
+.custom .sticks:before{
+    content: "LATERAL";
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    color: #03b2e1;
+    top: -1.5em;
     left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.custom .sticks:after{
+    content: "VERTICAL";
+    display: inline-block;
+    position: absolute;
+    font-size: 15px;
+    color: #03b2e1;
+    top: 50%;
+    right: calc(-30% - 1.25em);
+    transform-origin: center;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.custom .stick.left{
+    top: 50%;
+    left: 50%;
+}
+
+.custom .stick.right{
+    top: calc(-120px);
+    left: 15px;
+}
+
+.custom .bumpers{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.custom .abxy{
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.custom .bumper.left:after{
+    content: "BOOST";
+    left: 68px;
+}
+
+.custom .button.a:after{
+    content: "ECM";
+    right: 0;
+    width: 51px;
+}
+
+.custom .button.b:after{
+    content: "SHIELD";
+    right: 0;
+    top: 45px;
+}
+
+.custom .button.x:after{
+    content: "HEAT";
+    right: 80px;
+    top: 45px;
+    width: 47px
 }
