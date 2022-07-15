@@ -6,12 +6,6 @@
     font-family: 'Orbitron', sans-serif;
 }
 
-.custom .bumper.pressed:after, .custom .button.pressed:after{
-    background: red;
-    color: black;
-    border-color: black;
-    transition: none
-}
 
 .custom .stick{
     width: 20px;
@@ -23,20 +17,6 @@
     border-radius: 10px;
 }
 
-.custom .bumper:after, .custom .button:after{
-    position: absolute;
-    display: inline-block;
-    background: black;
-    border: 2px solid hsla(193, 97%, 27%, 1);
-    color: hsla(193, 97%, 27%, 1);
-    font-size: 12px;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 25px;
-    text-align: center;
-    white-space: nowrap;
-    transition: 5s all linear
-}
 
 /* - END COMMON STUFF - */
 
@@ -116,11 +96,6 @@
     left: 15px;
 }
 
-.custom .bumpers{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 .custom .abxy{
     position: absolute;
