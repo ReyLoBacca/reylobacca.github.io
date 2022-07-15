@@ -81,9 +81,9 @@
     position: absolute;
     font-size: 15px;
     color: #03b2e1;
-    left: 70px;
-    top: 70px;
-    transform: rotate(-90deg);
+    left: 0px;
+    top: 0px;
+    /*transform: rotate(-90deg);*/
 }
 
 .custom .stick.left{
