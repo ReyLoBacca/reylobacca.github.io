@@ -102,10 +102,7 @@
     position: absolute;
     font-size: 15px;
     color: #03b2e1;
-    top: 50%;
-    right: -70px;
-    transform-origin: center;
-    transform: translateY(-50%) rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 .custom .stick.left{
