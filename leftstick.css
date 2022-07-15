@@ -98,13 +98,13 @@
 
 
 .custom .sticks:after{
-    content: "FWD / REV";
+    content: "REV / FWD";
     display: inline-block;
     position: absolute;
     font-size: 15px;
     color: #03b2e1;
     top: 50%;
-    right: -15px;
+    right: -35px;
     transform-origin: center;
     transform: translateY(-50%) rotate(-90deg);
 }
