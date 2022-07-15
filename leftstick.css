@@ -98,7 +98,6 @@
 
 .custom .sticks:after{
     content: "REV / FWD";
-    display: inline-block;
     position: absolute;
     font-size: 15px;
     color: #03b2e1;
