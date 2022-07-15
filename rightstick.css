@@ -4,13 +4,7 @@
     width: 1900px;
     height: 360px;
     font-family: 'Orbitron', sans-serif;
-}
 
-.custom .bumper.pressed:after, .custom .button.pressed:after{
-    background: red;
-    color: black;
-    border-color: black;
-    transition: none
 }
 
 .custom .stick{
@@ -23,20 +17,6 @@
     border-radius: 10px;
 }
 
-.custom .bumper:after, .custom .button:after{
-    position: absolute;
-    display: inline-block;
-    background: black;
-    border: 2px solid hsla(193, 97%, 27%, 1);
-    color: hsla(193, 97%, 27%, 1);
-    font-size: 12px;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 25px;
-    text-align: center;
-    white-space: nowrap;
-    transition: 5s all linear
-}
 
 /* - END COMMON STUFF - */
 .custom .sticks{
@@ -93,10 +73,8 @@
     transform: translateX(50%);
 }
 
-/* This is to hide the stick we're not using */
-.custom .stick.left{
-    display: none;
-}
+
+
 /* This is to position the Yaw pointer */
 .custom .stick.right{
     top: calc(-55px);
@@ -104,45 +82,6 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
-
-.custom.controller {
-    width: 1900px;
-    height: 360px;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.custom .bumper.pressed:after, .custom .button.pressed:after{
-    background: red;
-    color: black;
-    border-color: black;
-    transition: none
-}
-
-.custom .stick{
-    width: 20px;
-    height: 20px;
-    background: #fd1601;
-    display: inline-block;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-}
-
-.custom .bumper:after, .custom .button:after{
-    position: absolute;
-    display: inline-block;
-    background: black;
-    border: 2px solid hsla(193, 97%, 27%, 1);
-    color: hsla(193, 97%, 27%, 1);
-    font-size: 12px;
-    font-weight: 500;
-    padding: 10px;
-    border-radius: 25px;
-    text-align: center;
-    white-space: nowrap;
-    transition: 5s all linear
-}
 
 /* - END COMMON STUFF - */
 .custom .sticks{
@@ -191,16 +130,6 @@
     left: 50%;
 }
 
-/*Hiding the unused stick*/
-.custom .stick.right{
-    display: none
-}
-
-.custom .bumpers{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 .custom .abxy{
     position: absolute;
@@ -208,25 +137,6 @@
     top: 0;
 }
 
-/* FA Button */
-.custom .bumper.right:after{
-    content: "FA";
-    left: 68px;
-    top: 45px;
-    word-wrap: normal;
-    width: 49px;
-    transition: none
-}
-/* FA Button when set to off */
-.custom .bumper.right.pressed:after{
-    content: "FA OFF";
-}
 
-/*Chaff Button*/
-.custom .button.y:after{
-    content: "CHAFF";
-    right: 80px;
-    top: 0px
-}
 
 
