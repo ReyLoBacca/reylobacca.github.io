@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
-    width: 1900px;
+    width: 150px;
     height: 360px;
     font-family: 'Orbitron', sans-serif;
 }
@@ -73,7 +73,7 @@
 }
 
 .custom .triggers:after{
-    content: "THROTTLE";
+    content: "UP / DOWN";
     display: inline-block;
     position: absolute;
     font-size: 14px;
@@ -85,7 +85,7 @@
 }
 
 .custom .sticks:before{
-    content: "LATERAL";
+    content: "LEFT / RIGHT";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -98,7 +98,7 @@
 
 
 .custom .sticks:after{
-    content: "VERTICAL";
+    content: "FORWARD / BACK";
     display: inline-block;
     position: absolute;
     font-size: 15px;
