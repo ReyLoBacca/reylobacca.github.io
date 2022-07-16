@@ -31,7 +31,7 @@
     position: absolute;
     border: 2px solid #f2a92d;
     border-radius: 20px;
-    background-image: linear-gradient(90deg, transparent 48%, #f2a92d 49%, #f2a92d 50%, #f2a92d 51%, transparent 52%, transparent);
+    background-image: linear-gradient(90deg, transparent 48%, #f6d88a 49%, #f6d88a 50%, #f6d88a 51%, transparent 52%, transparent);
     background-size: 100% calc(100% - 10px);
     background-repeat: no-repeat;
     background-position: center;
@@ -50,7 +50,7 @@
     background: black;
     border: 2px solid #f2a92d;
     border-radius: 15px;
-    background-image: linear-gradient(0deg, transparent 48%, #f2a92d 49%, #f2a92d 50%, #f2a92d 51%, transparent 52%, transparent), linear-gradient(90deg, transparent 48%, #f2a92d 49%, #f2a92d 50%, #f2a92d 51%, transparent 52%, transparent);
+    background-image: linear-gradient(0deg, transparent 48%, #f6d88a 49%, #f6d88a 50%, #f6d88a 51%, transparent 52%, transparent), linear-gradient(90deg, transparent 48%, #f6d88a 49%, #f6d88a 50%, #f6d88a 51%, transparent 52%, transparent);
     top: 70px;
     //right: -100%;
     //transform: translateX(-100%);
