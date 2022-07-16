@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
 
 .custom.controller {
-    width: 200px;
-    height: 400px;
+    //width: px;
+    //height: 400px;
     font-family: 'Orbitron', sans-serif;
+    //background: #fd1601;
 }
 
-
+/* Indicators */
 .custom .stick{
     width: 20px;
     height: 20px;
@@ -20,15 +21,16 @@
 
 /* - END COMMON STUFF - */
 
+/* Background for 2d area*/
 .custom .sticks{
     width: 135px;
     height: 135px;
     display: inline-block;
     position: relative;
     background: black;
-    border: 2px solid #03b2e1;
+    border: 2px solid #f2a92d;
     border-radius: 15px;
-    background-image: linear-gradient(0deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent), linear-gradient(90deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent);
+    background-image: linear-gradient(0deg, transparent 48%, #f2a92d 49%, #f2a92d 50%, #f2a92d 51%, transparent 52%, transparent), linear-gradient(90deg, transparent 48%, #f2a92d 49%, #f2a92d 50%, #f2a92d 51%, transparent 52%, transparent);
     top: calc(42px);
     background-size: calc(100% - 15px) 100%, 100% calc(100% - 15px);
     background-repeat: no-repeat;
@@ -36,16 +38,16 @@
     padding: 2px
 }
 
-
+/* Background for vertical slider*/
 .custom .triggers{
     width: 20px;
     height: 135px;
     display: inline-block;
     background: black;
     position: relative;
-    border: 2px solid #03b2e1;
+    border: 2px solid #f2a92d;
     border-radius: 20px;
-    background-image: linear-gradient(0deg, transparent 48%, #002f3b 49%, #002f3b 50%, #002f3b 51%, transparent 52%, transparent);
+    background-image: linear-gradient(0deg, transparent 48%, #f2a92d 49%, #f2a92d 50%, #f2a92d 51%, transparent 52%, transparent);
     background-size: calc(100% - 10px) 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,7 +59,7 @@
     display: inline-block;
     position: absolute;
     font-size: 14px;
-    color: #03b2e1;
+    color: #f2a92d;
     top: 50%;
     right: calc(-200%);
     transform-origin: center;
@@ -69,36 +71,31 @@
     display: inline-block;
     position: absolute;
     font-size: 15px;
-    color: #03b2e1;
-    top: -1.5em;
-    left: 50;
+    color: #f2a92d;
+    top: -20px;
+    left: 15px;
 }
-
 
 
 .custom .sticks:after{
     content: "REV / FWD";
+    display: inline-block;
     position: absolute;
     font-size: 15px;
-    color: #03b2e1;
-    left: 0px;
-    top: 0px;
-    /*transform: rotate(-90deg);*/
+    color: #f2a92d;
+    top: 60px;
+    transform: translateX(100px) rotate(-90deg);
 }
 
+/* Position of left/right indicator*/
 .custom .stick.left{
     top: 50%;
     left: 50%;
 }
 
+/* Position of verticle indicator */
 .custom .stick.right{
     top: calc(-120px);
-    left: 15px;
+    left: -43px;
 }
 
-
-.custom .abxy{
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
