@@ -80,8 +80,8 @@
 
 /* This is to position the Roll pointer */
 .custom .stick.right{
-    top: -65px;
-    left: 60px;
+    top: -55px;
+    left: 70px;
 }
 
 .custom .sticks:before{
@@ -109,8 +109,8 @@
 
 /* Position of Pitch/Yaw indicator*/
 .custom .stick.left{
-    top: 60px;
-    left: 60px;
+    top: 70px;
+    left: 70px;
 }
 
 #sleek-button{
