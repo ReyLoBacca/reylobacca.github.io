@@ -96,7 +96,7 @@
 /* Position of verticle indicator */
 .custom .stick.right{
     top: calc(-120px);
-    left: 73px;
+    left: -32px;
 }
 
 #sleek-button{
