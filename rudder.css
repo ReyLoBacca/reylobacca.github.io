@@ -57,8 +57,12 @@
 
 /* Position of verticle indicator */
 .custom .stick.right{
-    top: calc(-120px);
-    left: 29px;
+    top: calc(50%);
+    left: 75px;
+}
+
+.custom .stick.left{
+    background:transparent;
 }
 
 #sleek-button{
