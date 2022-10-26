@@ -38,7 +38,8 @@
     padding: 2px
 }
 
-/* Background for vertical slider*/
+/*
+// Background for vertical slider
 .custom .triggers{
     width: 20px;
     height: 135px;
@@ -53,6 +54,8 @@
     background-position: center;
     padding: 5px
 }
+*/
+
 
 .custom .triggers:after{
     content: "DOWN / UP";
@@ -66,6 +69,8 @@
     transform: translateY(-50%) rotate(-90deg);
 }
 
+
+
 .custom .sticks:before{
     content: "LEFT / RIGHT";
     display: inline-block;
@@ -78,7 +83,7 @@
 
 
 .custom .sticks:after{
-    content: "REV / FWD";
+    content: "UP / DOWN";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -86,6 +91,7 @@
     top: 60px;
     transform: translateX(100px) rotate(-90deg);
 }
+
 
 /* Position of left/right indicator*/
 .custom .stick.left{
@@ -97,6 +103,10 @@
 .custom .stick.right{
     top: calc(-120px);
     left: 73px;
+}
+
+.custom .stick.right{
+    display: none;
 }
 
 #sleek-button{
