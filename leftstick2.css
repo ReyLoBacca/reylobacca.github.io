@@ -96,12 +96,12 @@
 }
 
 .custom .sticks:after{
-    content: "UP  ---- DOWN";
+    content: "UP  --- DOWN";
     display: inline-block;
     position: absolute;
     font-size: 15px;
     color: #f2a92d;
-    top: 48%;
+    top: 41%;
     //right: calc(80% + 1.25em);
     //right: 0px;
     //transform-origin: center;
