@@ -85,7 +85,7 @@
 }
 
 .custom .sticks:before{
-    content: "LEFT / RIGHT";
+    content: "LEFT-RIGHT";
     display: inline-block;
     position: absolute;
     font-size: 15px;
@@ -96,7 +96,7 @@
 }
 
 .custom .sticks:after{
-    content: "UP / DOWN";
+    content: "UP-DOWN";
     display: inline-block;
     position: absolute;
     font-size: 15px;
