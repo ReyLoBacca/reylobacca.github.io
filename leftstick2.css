@@ -85,26 +85,27 @@
 }
 
 .custom .sticks:before{
-    content: "LEFT-RIGHT";
+    content: "LEFT -- RIGHT";
     display: inline-block;
     position: absolute;
     font-size: 15px;
     color: #f2a92d;
     top: -1.5em;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 9%;
+    transform: translateX(0%);
 }
 
 .custom .sticks:after{
-    content: "UP-DOWN";
+    content: "UP  ---- DOWN";
     display: inline-block;
     position: absolute;
     font-size: 15px;
     color: #f2a92d;
-    top: 50%;
-    right: calc(80% + 1.25em);
-    transform-origin: center;
-    transform: translateY(-50%) rotate(-90deg);
+    top: 48%;
+    //right: calc(80% + 1.25em);
+    //right: 0px;
+    //transform-origin: center;
+    transform: translatex(-65%) rotate(-90deg);
 }
 
 /* Position of Pitch/Yaw indicator*/
