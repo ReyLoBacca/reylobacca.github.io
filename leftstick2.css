@@ -80,7 +80,7 @@
 
 /* This is to position the Roll pointer */
 .custom .stick.right{
-    top: -55px;
+    top: px;
     left: 70px;
 }
 
@@ -96,12 +96,12 @@
 }
 
 .custom .sticks:after{
-    content: "UP  --- DOWN";
+    content: "DOWN ----- UP";
     display: inline-block;
     position: absolute;
     font-size: 15px;
     color: #f2a92d;
-    top: 41%;
+    top: 46%;
     //right: calc(80% + 1.25em);
     //right: 0px;
     //transform-origin: center;
